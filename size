@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{    
+    cout << "Size of char: " << sizeof(char) << " byte" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+    
+     int x, y, multiplication;
+    
+    cout << "Enter two integers for multiplication: ";
+    cin >> x >> y;
+ 
+    // stored result in third variable
+    multiplication = x * y;
+ 
+    // Prints multiplication value 
+    cout << x << " * " <<  y << " = " << multiplication; 
+
+    return 0;
+}
